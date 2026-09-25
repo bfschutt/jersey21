@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Share Your 21 Story &mdash; Jersey21</title>
+  <meta name="description" content="Wore #21 yourself? Share your story and read stories from other everyday #21s.">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -24,14 +25,52 @@
 
   <main class="page">
     <h1>Share Your 21 Story</h1>
-    <p class="subtitle">Wore #21 yourself? Tell your story and read others'.</p>
-    <div class="coming-soon">
-      <p>Coming soon: a place to submit and read #21 stories from everyday players.</p>
+    <p class="subtitle">You don't have to be a pro. If you wore #21, this is your wall too.</p>
+
+    <div id="not-configured-notice" class="not-configured-notice">
+      The story wall isn't connected yet &mdash; check back soon.
+    </div>
+
+    <div class="story-layout">
+      <div class="story-form-box">
+        <h2>Tell your story</h2>
+        <form id="story-form">
+          <div class="field">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" maxlength="80" required>
+          </div>
+          <div class="field">
+            <label for="sport">Sport (optional)</label>
+            <input type="text" id="sport" name="sport" maxlength="40" placeholder="e.g. High school soccer">
+          </div>
+          <div class="field">
+            <label for="story">Your #21 story</label>
+            <textarea id="story" name="story" maxlength="2000" required placeholder="Why #21? What did it mean to you?"></textarea>
+          </div>
+          <!-- Honeypot field: hidden from real visitors, left blank by them -->
+          <div class="field honeypot-field" aria-hidden="true">
+            <label for="website">Website</label>
+            <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+          </div>
+          <button type="submit" class="btn-submit">Submit story</button>
+          <p id="form-status" class="form-status"></p>
+          <p class="form-status">Submissions are reviewed before they appear publicly.</p>
+        </form>
+      </div>
+
+      <div>
+        <p id="wall-status" class="athlete-status"></p>
+        <div id="story-wall" class="story-wall"></div>
+      </div>
     </div>
   </main>
 
   <footer class="site-footer">
     &copy; 2026 Jersey21. Built by a fellow #21.
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="assets/js/supabase-config.js"></script>
+  <script src="assets/js/stories.js"></script>
 </body>
 </html>

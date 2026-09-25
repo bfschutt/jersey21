@@ -414,3 +414,126 @@ footer.site-footer {
 .athlete-achievements li {
   margin-bottom: 0.2rem;
 }
+
+/* ---- Share Your 21 Story page ---- */
+.story-layout {
+  display: grid;
+  grid-template-columns: minmax(280px, 380px) 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+@media (max-width: 800px) {
+  .story-layout { grid-template-columns: 1fr; }
+}
+
+.story-form-box {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.story-form-box h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: var(--accent);
+}
+
+.field {
+  margin-bottom: 1rem;
+}
+
+.field label {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 0.3rem;
+}
+
+.field input,
+.field textarea {
+  width: 100%;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  padding: 0.6rem 0.7rem;
+  font-family: inherit;
+  font-size: 0.95rem;
+}
+
+.field textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.field input:focus,
+.field textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.honeypot-field {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.btn-submit {
+  background: var(--accent);
+  color: #1a1300;
+  border: none;
+  border-radius: 6px;
+  padding: 0.7rem 1.5rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.btn-submit:hover { background: var(--accent-dark); }
+.btn-submit:disabled { opacity: 0.6; cursor: not-allowed; }
+
+.form-status {
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  min-height: 1.2em;
+}
+
+.story-wall {
+  display: grid;
+  gap: 1rem;
+}
+
+.story-card {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
+}
+
+.story-text {
+  margin: 0 0 0.6rem;
+  font-size: 1rem;
+  white-space: pre-wrap;
+}
+
+.story-byline {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.not-configured-notice {
+  display: none;
+  max-width: 500px;
+  background: var(--bg-alt);
+  border: 1px dashed var(--border);
+  border-radius: 10px;
+  padding: 1.5rem;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}

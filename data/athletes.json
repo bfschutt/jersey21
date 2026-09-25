@@ -5,7 +5,9 @@
     "fullName": "John Willard Hadl",
     "sport": "Football",
     "league": "NFL / AFL",
-    "teams": ["San Diego Chargers"],
+    "teams": [
+      "San Diego Chargers"
+    ],
     "position": "Quarterback",
     "number": 21,
     "yearsActive": "1962–1972 (with San Diego)",
@@ -26,7 +28,9 @@
     "fullName": "James Forrest Kiick",
     "sport": "Football",
     "league": "NFL",
-    "teams": ["Miami Dolphins"],
+    "teams": [
+      "Miami Dolphins"
+    ],
     "position": "Running Back",
     "number": 21,
     "yearsActive": "1968–1974 (with Miami)",
@@ -47,7 +51,10 @@
     "fullName": "LaDainian Tarshane Tomlinson",
     "sport": "Football",
     "league": "NFL",
-    "teams": ["San Diego Chargers", "New York Jets"],
+    "teams": [
+      "San Diego Chargers",
+      "New York Jets"
+    ],
     "position": "Running Back",
     "number": 21,
     "yearsActive": "2001–2011",
@@ -68,7 +75,9 @@
     "fullName": "Timothy Theodore Duncan",
     "sport": "Basketball",
     "league": "NBA",
-    "teams": ["San Antonio Spurs"],
+    "teams": [
+      "San Antonio Spurs"
+    ],
     "position": "Power Forward / Center",
     "number": 21,
     "yearsActive": "1997–2016",
@@ -89,7 +98,9 @@
     "fullName": "Jacques Dominique Wilkins",
     "sport": "Basketball",
     "league": "NBA",
-    "teams": ["Atlanta Hawks"],
+    "teams": [
+      "Atlanta Hawks"
+    ],
     "position": "Small Forward",
     "number": 21,
     "yearsActive": "1982–1994 (with Atlanta)",
@@ -103,5 +114,73 @@
     ],
     "blurb": "The ‘Human Highlight Film’ made #21 iconic in Atlanta — a nine-time All-Star and electrifying dunker who wore it before Tim Duncan ever put it on in San Antonio.",
     "sourceUrl": "https://en.wikipedia.org/wiki/Dominique_Wilkins"
+  },
+  {
+    "id": "luis-rengifo",
+    "name": "Luis Rengifo",
+    "fullName": "Luis Jose Rengifo",
+    "sport": "Baseball",
+    "league": "MLB",
+    "teams": [
+      "San Diego Padres"
+    ],
+    "position": "Infielder / Outfielder",
+    "number": 21,
+    "yearsActive": "2019–present",
+    "born": "1997, Naguanagua, Venezuela",
+    "category": "current",
+    "achievements": [
+      "AL Player of the Week, September 2023",
+      "Career-best 2023 season: .264 avg, 16 HR",
+      "Switch hitter known for defensive versatility",
+      "Signed with San Diego in 2026, wearing #21"
+    ],
+    "blurb": "A switch-hitting Venezuelan infielder/outfielder, Rengifo wears #21 for the Padres — proof that #21 stories aren't only about the legends already in Cooperstown.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Luis_Rengifo"
+  },
+  {
+    "id": "cam-lampkin",
+    "name": "Cam Lampkin",
+    "fullName": "Cam Lampkin",
+    "sport": "Football",
+    "league": "NFL",
+    "teams": [
+      "Los Angeles Rams"
+    ],
+    "position": "Cornerback",
+    "number": 21,
+    "yearsActive": "2024–present",
+    "born": "2001, USA",
+    "category": "current",
+    "achievements": [
+      "Undrafted free agent signing, 2024",
+      "Led Washington State in pass breakups as a senior",
+      "Started all 12 games in his final college season"
+    ],
+    "blurb": "An undrafted free agent out of Washington State who worked his way onto the Rams' roster, Lampkin wears #21 in the defensive backfield.",
+    "sourceUrl": "https://www.espn.com/nfl/player/_/id/4427752/cam-lampkin"
+  },
+  {
+    "id": "han-xu",
+    "name": "Han Xu",
+    "fullName": "Han Xu (韩旭)",
+    "sport": "Basketball",
+    "league": "WNBA",
+    "teams": [
+      "New York Liberty"
+    ],
+    "position": "Center",
+    "number": 21,
+    "yearsActive": "2019–present",
+    "born": "1999, Shijiazhuang, Hebei, China",
+    "category": "current",
+    "achievements": [
+      "14th overall pick, 2019 WNBA Draft",
+      "2x WNBA Commissioner's Cup champion",
+      "3x WCBA MVP (China)",
+      "2023 FIBA Women's Asia Cup Tournament MVP"
+    ],
+    "blurb": "At 6'11\", Han Xu wears #21 for the New York Liberty and is one of Chinese basketball's most decorated exports, with multiple MVP awards on the international stage.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Han_Xu_(basketball)"
   }
 ]

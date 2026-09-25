@@ -1,0 +1,107 @@
+[
+  {
+    "id": "john-hadl",
+    "name": "John Hadl",
+    "fullName": "John Willard Hadl",
+    "sport": "Football",
+    "league": "NFL / AFL",
+    "teams": ["San Diego Chargers"],
+    "position": "Quarterback",
+    "number": 21,
+    "yearsActive": "1962–1972 (with San Diego)",
+    "born": "1940, Lawrence, Kansas, USA",
+    "category": "hall-of-fame",
+    "achievements": [
+      "AFL Champion, 1963",
+      "4x AFL All-Star",
+      "NFL leader in passing yards and touchdowns, 1971",
+      "Chargers Hall of Fame, 1983"
+    ],
+    "blurb": "Hadl wore #21 for nearly his entire pro career, leading the NFL in passing yards and touchdowns in 1971 and anchoring the Chargers offense for over a decade.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/John_Hadl"
+  },
+  {
+    "id": "jim-kiick",
+    "name": "Jim Kiick",
+    "fullName": "James Forrest Kiick",
+    "sport": "Football",
+    "league": "NFL",
+    "teams": ["Miami Dolphins"],
+    "position": "Running Back",
+    "number": 21,
+    "yearsActive": "1968–1974 (with Miami)",
+    "born": "1946, Lincoln Park, New Jersey, USA",
+    "category": "hall-of-fame",
+    "achievements": [
+      "2x Super Bowl champion (VII, VIII)",
+      "Member of the undefeated 1972 Miami Dolphins",
+      "Scored the go-ahead touchdown in Super Bowl VII",
+      "2x AFL All-Star"
+    ],
+    "blurb": "One half of Miami's ‘Butch and Sundance’ backfield, Kiick wore #21 during the Dolphins' perfect 1972 season and scored in back-to-back Super Bowl wins.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Jim_Kiick"
+  },
+  {
+    "id": "ladainian-tomlinson",
+    "name": "LaDainian Tomlinson",
+    "fullName": "LaDainian Tarshane Tomlinson",
+    "sport": "Football",
+    "league": "NFL",
+    "teams": ["San Diego Chargers", "New York Jets"],
+    "position": "Running Back",
+    "number": 21,
+    "yearsActive": "2001–2011",
+    "born": "1979, Rosebud, Texas, USA",
+    "category": "hall-of-fame",
+    "achievements": [
+      "NFL MVP, 2006",
+      "5x Pro Bowl selection",
+      "NFL single-season rushing touchdown record (28, in 2006)",
+      "Pro Football Hall of Fame, 2017"
+    ],
+    "blurb": "‘LT’ is one of the greatest running backs the game has seen, wearing #21 while setting the NFL's single-season touchdown record and winning league MVP in 2006.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/LaDainian_Tomlinson"
+  },
+  {
+    "id": "tim-duncan",
+    "name": "Tim Duncan",
+    "fullName": "Timothy Theodore Duncan",
+    "sport": "Basketball",
+    "league": "NBA",
+    "teams": ["San Antonio Spurs"],
+    "position": "Power Forward / Center",
+    "number": 21,
+    "yearsActive": "1997–2016",
+    "born": "1976, Saint Croix, U.S. Virgin Islands",
+    "category": "hall-of-fame",
+    "achievements": [
+      "5x NBA champion (1999, 2003, 2005, 2007, 2014)",
+      "2x NBA MVP (2002, 2003) · 3x Finals MVP",
+      "15x NBA All-Star",
+      "Naismith Basketball Hall of Fame, 2020"
+    ],
+    "blurb": "Known as ‘The Big Fundamental,’ Duncan spent his entire 19-year Hall of Fame career in #21 with the Spurs — born and raised in Saint Croix, U.S. Virgin Islands.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Tim_Duncan"
+  },
+  {
+    "id": "dominique-wilkins",
+    "name": "Dominique Wilkins",
+    "fullName": "Jacques Dominique Wilkins",
+    "sport": "Basketball",
+    "league": "NBA",
+    "teams": ["Atlanta Hawks"],
+    "position": "Small Forward",
+    "number": 21,
+    "yearsActive": "1982–1994 (with Atlanta)",
+    "born": "1960, Paris, France",
+    "category": "hall-of-fame",
+    "achievements": [
+      "9x NBA All-Star",
+      "NBA scoring champion, 1986 (30.3 ppg)",
+      "2x Slam Dunk Contest champion",
+      "Naismith Basketball Hall of Fame, 2006"
+    ],
+    "blurb": "The ‘Human Highlight Film’ made #21 iconic in Atlanta — a nine-time All-Star and electrifying dunker who wore it before Tim Duncan ever put it on in San Antonio.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Dominique_Wilkins"
+  }
+]

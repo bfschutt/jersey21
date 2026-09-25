@@ -321,3 +321,96 @@ footer.site-footer {
 }
 
 .sources-note a { color: var(--text-muted); text-decoration: underline; }
+
+/* ---- Athlete listing pages (Hall of Fame / Current Players) ---- */
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.filter-btn {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.filter-btn:hover {
+  border-color: var(--accent);
+  color: var(--text);
+}
+
+.filter-btn.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #1a1300;
+  font-weight: 700;
+}
+
+.athlete-status {
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+}
+
+.athlete-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.25rem;
+}
+
+.athlete-card {
+  position: relative;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.athlete-card-num {
+  position: absolute;
+  top: 1rem;
+  right: 1.25rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--border);
+}
+
+.athlete-card h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1.2rem;
+  padding-right: 2rem;
+}
+
+.athlete-meta {
+  margin: 0 0 0.15rem;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.athlete-years {
+  margin: 0 0 0.75rem;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.athlete-blurb {
+  margin: 0 0 0.75rem;
+  font-size: 0.92rem;
+}
+
+.athlete-achievements {
+  margin: 0 0 0.75rem;
+  padding-left: 1.1rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.athlete-achievements li {
+  margin-bottom: 0.2rem;
+}

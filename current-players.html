@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Current Players &mdash; Jersey21</title>
+  <meta name="description" content="Active athletes wearing #21 today, across leagues and sports.">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -25,13 +26,16 @@
   <main class="page">
     <h1>Current Players</h1>
     <p class="subtitle">Active athletes wearing #21 today, across leagues and sports.</p>
-    <div class="coming-soon">
-      <p>Coming soon: a running list of current #21s.</p>
-    </div>
+
+    <div id="sport-filter" class="filter-bar"></div>
+    <p id="athlete-status" class="athlete-status"></p>
+    <div id="athlete-grid" class="athlete-grid" data-category="current"></div>
   </main>
 
   <footer class="site-footer">
     &copy; 2026 Jersey21. Built by a fellow #21.
   </footer>
+
+  <script src="assets/js/athletes.js"></script>
 </body>
 </html>

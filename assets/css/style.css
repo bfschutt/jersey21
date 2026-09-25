@@ -189,3 +189,135 @@ footer.site-footer {
   .hero .num { font-size: 3.5rem; }
   .hero h1 { font-size: 1.5rem; }
 }
+
+/* ---- Clemente tribute page ---- */
+.tribute-hero {
+  text-align: center;
+  padding: 3rem 1.25rem 2rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.tribute-hero .tribute-num {
+  font-size: 4rem;
+  font-weight: 800;
+  color: var(--accent);
+  line-height: 1;
+}
+
+.tribute-hero h1 {
+  margin: 0.4rem 0 0.25rem;
+  font-size: 2.1rem;
+}
+
+.tribute-hero .dates {
+  color: var(--text-muted);
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.tribute-hero .role {
+  color: var(--text-muted);
+  font-size: 1rem;
+}
+
+.quote-block {
+  max-width: 680px;
+  margin: 2rem auto;
+  padding: 1.5rem 1.75rem;
+  border-left: 4px solid var(--accent);
+  background: var(--bg-alt);
+  border-radius: 6px;
+  font-size: 1.15rem;
+  font-style: italic;
+  color: var(--text);
+}
+
+.quote-block cite {
+  display: block;
+  margin-top: 0.75rem;
+  font-style: normal;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.tribute-section {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 1rem 1.25rem 2.5rem;
+}
+
+.tribute-section h2 {
+  font-size: 1.4rem;
+  margin: 2rem 0 0.75rem;
+  color: var(--accent);
+}
+
+.tribute-section p {
+  color: var(--text);
+  margin: 0 0 1rem;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  max-width: 900px;
+  margin: 1.5rem auto 2.5rem;
+  padding: 0 1.25rem;
+}
+
+.stat {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.25rem 0.75rem;
+  text-align: center;
+}
+
+.stat .stat-value {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--accent);
+  line-height: 1.1;
+}
+
+.stat .stat-label {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: 0.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.honors-list {
+  margin: 0 0 1rem;
+  padding-left: 1.25rem;
+  color: var(--text);
+}
+
+.honors-list li {
+  margin-bottom: 0.5rem;
+}
+
+.callout {
+  max-width: 760px;
+  margin: 0 auto 2.5rem;
+  padding: 1.25rem 1.5rem;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.callout strong { color: var(--text); }
+
+.sources-note {
+  max-width: 760px;
+  margin: 0 auto 3rem;
+  padding: 0 1.25rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.sources-note a { color: var(--text-muted); text-decoration: underline; }

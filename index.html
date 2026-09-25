@@ -3,38 +3,61 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jersey21</title>
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background: #0b1220;
-      color: #f4f4f4;
-      display: flex;
-      min-height: 100vh;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      margin: 0;
-      padding: 2rem;
-    }
-    .wrap { max-width: 560px; }
-    .num {
-      font-size: 6rem;
-      font-weight: 800;
-      line-height: 1;
-      letter-spacing: -0.02em;
-      color: #ffb703;
-    }
-    h1 { margin: 0.5rem 0 1rem; font-size: 1.75rem; }
-    p { color: #b8c0cc; line-height: 1.5; }
-  </style>
+  <title>Jersey21 &mdash; Celebrating #21</title>
+  <meta name="description" content="A site celebrating athletes, men and women, pro and amateur, across every sport and country, who wore jersey number 21.">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <div class="wrap">
+  <header class="site-header">
+    <div class="nav-inner">
+      <a class="brand" href="index.html"><span class="brand-num">21</span> Jersey21</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="hall-of-fame.html">Hall of Fame</a></li>
+          <li><a href="clemente.html">Clemente Tribute</a></li>
+          <li><a href="current-players.html">Current Players</a></li>
+          <li><a href="share-your-story.html">Share Your Story</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
     <div class="num">21</div>
-    <h1>Jersey21</h1>
-    <p>Celebrating the athletes, men and women, pro and amateur, across every sport and every country, who wore #21.</p>
-    <p>Site under construction &mdash; check back soon.</p>
+    <h1>Celebrating everyone who wore #21</h1>
+    <p>
+      From the pros to the weekend leagues, from Roberto Clemente to your own
+      backyard, this is a home for every athlete &mdash; man or woman,
+      any sport, any country &mdash; who put on jersey number 21.
+    </p>
+  </section>
+
+  <div class="card-grid">
+    <div class="card">
+      <h2>Hall of Fame</h2>
+      <p>Notable #21s across sports and eras, from around the world.</p>
+      <a class="card-link" href="hall-of-fame.html">Explore &rarr;</a>
+    </div>
+    <div class="card">
+      <h2>Roberto Clemente Tribute</h2>
+      <p>A dedicated page honoring the player most associated with #21.</p>
+      <a class="card-link" href="clemente.html">View tribute &rarr;</a>
+    </div>
+    <div class="card">
+      <h2>Current Players</h2>
+      <p>Active athletes wearing #21 today, across leagues and sports.</p>
+      <a class="card-link" href="current-players.html">See who's playing &rarr;</a>
+    </div>
+    <div class="card">
+      <h2>Share Your 21 Story</h2>
+      <p>Wore #21 yourself? Tell your story and read others'.</p>
+      <a class="card-link" href="share-your-story.html">Share your story &rarr;</a>
+    </div>
   </div>
+
+  <footer class="site-footer">
+    &copy; 2026 Jersey21. Built by a fellow #21.
+  </footer>
 </body>
 </html>

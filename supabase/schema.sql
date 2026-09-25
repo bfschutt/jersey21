@@ -37,3 +37,11 @@ create policy "Anyone can read approved stories"
 
 create index if not exists stories_approved_submitted_idx
   on public.stories (approved, submitted_at desc);
+
+-- Newer Supabase projects don't always auto-grant table-level privileges
+-- to "anon" the way older projects did. RLS policies above control which
+-- ROWS anon can touch; these grants control whether it can touch the
+-- TABLE at all. If submissions fail with "permission denied for table
+-- stories" (Postgres error 42501), run this:
+grant usage on schema public to anon;
+grant select, insert on public.stories to anon;
